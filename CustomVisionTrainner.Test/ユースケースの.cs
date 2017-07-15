@@ -8,13 +8,12 @@ using System.Threading.Tasks;
 namespace CustomVisionTrainner.Test
 {
     [TestFixture]
-    public class TestClass
+    public class ユースケースの
     {
         [Test]
-        public void TestMethod()
+        public void BingImageSearchから学習データを取得しCutomVisionへ学習させるテスト()
         {
-            // TODO: Add your test code here
-            Assert.Pass("Your first passing test");
+
         }
     }
 }
