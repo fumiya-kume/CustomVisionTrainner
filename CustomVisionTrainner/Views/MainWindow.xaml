@@ -5,6 +5,24 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Custom Vision Service Key" Grid.Row="0" Grid.Column="0"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Text="Key" />
+        <TextBlock Text="Bing Image Service API Key" Grid.Row="1" Grid.Column="0"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="Key"/>
+        <TextBlock Text="Emotion API Key" Grid.Row="2" Grid.Column="0"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Text="Key"/>
+        <Button Content="Learning Start" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Background="Black"/>
     </Grid>
 </Window>
