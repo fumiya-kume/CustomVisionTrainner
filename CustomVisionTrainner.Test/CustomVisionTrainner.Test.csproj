@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AngleSharp, Version=0.9.9.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
+      <HintPath>..\packages\AngleSharp.0.9.9\lib\net45\AngleSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Castle.Core, Version=4.1.1.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\packages\Castle.Core.4.1.1\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
@@ -42,10 +45,14 @@
     <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="ReactiveProperty, Version=3.6.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChainingAssertion.NUnit.cs" />
+    <Compile Include="DataStore\MemberInfoDataStoreTests.cs" />
+    <Compile Include="Repositry\MemberInfoRepositryTests.cs" />
+    <Compile Include="ViewModels\MainPageViewModelの.cs" />
     <Compile Include="ユースケースの.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
