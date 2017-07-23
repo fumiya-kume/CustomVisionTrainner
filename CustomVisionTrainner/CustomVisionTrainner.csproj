@@ -146,8 +146,14 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="DataStore\BingImageSearchDataStoreFromAPI.cs" />
+    <Compile Include="DataStore\IBingImageSearchDataStore.cs" />
     <Compile Include="DataStore\IMemberInfoDataStore.cs" />
     <Compile Include="DataStore\MemberInfoDataStoreFromInternet.cs" />
+    <Compile Include="Entity\BingImageSearchResponse.cs" />
+    <Compile Include="Entity\MemberImage.cs" />
+    <Compile Include="Repositry\BingImageSearchRepositry.cs" />
+    <Compile Include="Repositry\IBingImageSearchRepositry.cs" />
     <Compile Include="Service\IPopupService.cs" />
     <Compile Include="Service\PopupService.cs" />
     <Compile Include="Repositry\IMemberInfoRepositry.cs" />
@@ -186,9 +192,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entity\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>

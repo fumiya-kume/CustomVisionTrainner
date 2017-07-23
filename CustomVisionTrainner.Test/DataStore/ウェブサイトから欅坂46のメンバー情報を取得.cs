@@ -6,7 +6,7 @@ using AngleSharp.Dom;
 namespace CustomVisionTrainner.DataStore.Tests
 {
     [TestFixture()]
-    public class KeyakiMemberInfoFromWebsiteTests
+    public class ウェブサイトから欅坂46のメンバー情報を取得
     {
         private MemberInfoDataStoreFromInternet _keyakiMemberInfoFromWebsite = new MemberInfoDataStoreFromInternet();
 

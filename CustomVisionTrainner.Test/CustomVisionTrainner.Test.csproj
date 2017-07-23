@@ -45,15 +45,18 @@
     <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Prism, Version=6.3.0.0, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59" />
     <Reference Include="ReactiveProperty, Version=3.6.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChainingAssertion.NUnit.cs" />
-    <Compile Include="DataStore\MemberInfoDataStoreTests.cs" />
+    <Compile Include="DataStore\Bing画像検索APIから画像を引っ張ってくる.cs" />
+    <Compile Include="DataStore\ウェブサイトから欅坂46のメンバー情報を取得.cs" />
+    <Compile Include="Repositry\BingImageSearchRepositryTests.cs" />
     <Compile Include="Repositry\MemberInfoRepositryTests.cs" />
     <Compile Include="ViewModels\MainPageViewModelの.cs" />
-    <Compile Include="ユースケースの.cs" />
+    <Compile Include="画像を取得しCustomVisionServiceに学習させる.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace CustomVisionTrainner.Test
 {
     [TestFixture]
-    public class ユースケースの
+    public class 画像を取得しCustomVisionServiceに学習させる
     {
         [Test]
-        public void BingImageSearchから学習データを取得しCutomVisionへ学習させるテスト()
+        public void 正常に学習したテスト()
         {
 
         }
